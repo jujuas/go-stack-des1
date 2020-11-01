@@ -21,7 +21,7 @@ app.post("/repositories", (request, response) => {
   const repository = {id:uuid(),title:title,url:url,techs:techs,likes:0};
 
   repositories.push(repository);
-  return response.json(repositories);
+  return response.json(repository);
 });
 
 app.put("/repositories/:id", (request, response) => {
