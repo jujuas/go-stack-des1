@@ -33,6 +33,7 @@ app.put("/repositories/:id", (request, response) => {
   const {title,url,techs} = request.body;
   const repository = {
     id,title,url,techs
+    ,likes:repositories[repositoryId].likes
   };
   repositories[repositoryId] = repository;
   return response.json(repository);
