@@ -1,6 +1,4 @@
-# go-stack-des1
-
-Go Stack - Desafio 1
+#Go Stack - Desafio 1
 🚀 Sobre o desafio
 
 Nesse desafio, você deve criar uma aplicação para treinar o que você aprendeu até agora no Node.js!
